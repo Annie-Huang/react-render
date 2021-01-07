@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export const UseState = () => {
+const UseState = () => {
   const [count, setCount] = useState(0);
 
   console.log('UseState Render');
@@ -12,3 +12,5 @@ export const UseState = () => {
     </div>
   );
 };
+
+export default UseState;
