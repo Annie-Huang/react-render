@@ -5,6 +5,7 @@ import ObjectUseState from './components/ImmutableState/ObjectUseState';
 import ArrayUseState from './components/ImmutableState/ArrayUseState';
 import Parent from './components/ParentChild/Parent';
 import ParentOne from './components/Optimization/ParentOne';
+import ChildOne from './components/Optimization/ChildOne';
 
 function App() {
   return (
@@ -25,7 +26,10 @@ function App() {
       <Parent />
       <hr />
       Optimization
-      <ParentOne />
+      {/*<ParentOne />*/}
+      <ParentOne>
+        <ChildOne />
+      </ParentOne>
     </div>
   );
 }
