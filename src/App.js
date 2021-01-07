@@ -3,6 +3,7 @@ import UseState from './components/UseState/UseState';
 import UseReducer from './components/UseReducer/UseReducer';
 import ObjectUseState from './components/ImmutableState/ObjectUseState';
 import ArrayUseState from './components/ImmutableState/ArrayUseState';
+import Parent from './components/ParentChild/Parent';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <ObjectUseState />
       <hr />
       <ArrayUseState />
+      <hr />
+      <Parent />
     </div>
   );
 }
