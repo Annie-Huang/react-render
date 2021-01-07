@@ -6,4 +6,4 @@ https://github.com/Annie-Huang/react-render
 
 ================================================================
 
-
+C:\react\react-render>npm i
