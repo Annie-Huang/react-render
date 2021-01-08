@@ -1,8 +1,12 @@
 import React from 'react';
 
-const ChildThree = () => {
+const ChildThree = ({ children, name }) => {
   console.log('ChildThree Render');
-  return <div>Child component</div>;
+  return (
+    <div>
+      {children} {name}
+    </div>
+  );
 };
 
 const MemoizedChildThree = React.memo(ChildThree);
