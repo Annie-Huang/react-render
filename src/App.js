@@ -10,6 +10,7 @@ import GrandParent from './components/Optimization/GrandParent';
 import ParentTwo from './components/Optimization/ParentTwo';
 import ParentThree from './components/IncorrectOptimizations/ParentThree';
 import ParentFour from './components/IncorrectOptimizations/ParentFour';
+import ContextParent from './components/Context/ContextParent';
 
 function App() {
   return (
@@ -47,6 +48,9 @@ function App() {
       <hr />
       Incorrect Optimization - with props reference
       <ParentFour />
+      <hr />
+      Context
+      <ContextParent />
     </div>
   );
 }
