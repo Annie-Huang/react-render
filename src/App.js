@@ -40,7 +40,8 @@ function App() {
       Optimization - ParentTwo|ChildTwo
       <ParentTwo />
       <hr />
-      Incorrect Optimization
+      Incorrect Optimization - Child component is not simple text | Child
+      component is impure component (got new Date() or ramdon())
       <ParentThree />
     </div>
   );
