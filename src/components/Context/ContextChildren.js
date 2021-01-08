@@ -11,6 +11,7 @@ export const ChildA = () => {
     </>
   );
 };
+export const MemorizeChildA = React.memo(ChildA);
 
 export const ChildB = () => {
   console.log('Child B Render');
