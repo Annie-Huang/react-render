@@ -9,6 +9,7 @@ import Parent from './components/ParentChild/Parent';
 import GrandParent from './components/Optimization/GrandParent';
 import ParentTwo from './components/Optimization/ParentTwo';
 import ParentThree from './components/IncorrectOptimizations/ParentThree';
+import ParentFour from './components/IncorrectOptimizations/ParentFour';
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
       Incorrect Optimization - Child component is not simple text | Child
       component is impure component (got new Date() or ramdon())
       <ParentThree />
+      <hr />
+      Incorrect Optimization - with props reference
+      <ParentFour />
     </div>
   );
 }
