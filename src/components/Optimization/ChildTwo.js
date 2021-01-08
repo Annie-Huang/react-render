@@ -5,4 +5,6 @@ const ChildTwo = () => {
   return <div>Child component</div>;
 };
 
-export default ChildTwo;
+const MemoizedChildTwo = React.memo(ChildTwo);
+
+export default MemoizedChildTwo;
