@@ -11,6 +11,7 @@ import ParentTwo from './components/Optimization/ParentTwo';
 import ParentThree from './components/IncorrectOptimizations/ParentThree';
 import ParentFour from './components/IncorrectOptimizations/ParentFour';
 import ContextParent from './components/Context/ContextParent';
+import { ChildA } from './components/Context/ContextChildren';
 
 function App() {
   return (
@@ -50,7 +51,10 @@ function App() {
       <ParentFour />
       <hr />
       Context
-      <ContextParent />
+      {/*<ContextParent />*/}
+      <ContextParent>
+        <ChildA />
+      </ContextParent>
     </div>
   );
 }
